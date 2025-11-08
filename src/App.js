@@ -544,7 +544,6 @@ function DayView({ state, setState }) {
         return { ...s, xp: residual, level: lvl };
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state.submissions, state.currentDay]);
 
   return (
